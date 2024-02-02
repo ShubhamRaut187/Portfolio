@@ -1,10 +1,14 @@
 import React from 'react';
 
+import HomeIntro from '../Components/HomeIntro';
+import About from './About';
+
 import './Styles/Home.css'
 function Home(props) {
     return (
-        <div className='home_main'>
-            <h1>👋🏻Hello I am, Shubham Raut</h1>
+        <div id='home'>
+            <HomeIntro/>
+            <About/>
         </div>
     );
 }

@@ -1,0 +1,114 @@
+#about_main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    
+}
+.about_image{
+    width: 40%;
+    border-radius: 6px;
+    height: 550px;
+    /* border: 2px solid white; */
+}
+.about_image>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.about_info_div{
+    width: 40%;
+    height: 580px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column; */
+}
+.about_info_div>h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffbd39;
+    text-align: left;
+    /* text-decoration: overline; */
+    margin-top: 50px;
+}
+#user-detail-intro{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    /* font-family: 'Roboto', sans-serif;   */
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.about_info_div > p{
+    text-align: left;
+    color: white;
+    font-weight: 700;
+}
+.about_intro_keys{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #ffbd39;
+    margin-right: 5px;
+}
+.social_icons{
+    width: 10%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#resume-button-2{
+    margin-top: 20px;
+    width: 40%;
+    height: 45px;
+    background-color: #ffbd39;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 0px;
+
+    background: linear-gradient(to right, white 50%, #ffbd39 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+}
+#resume-button-2:hover{
+    background-position: left bottom;
+}
+
+/* Media */
+/* Small Screens */
+@media screen and (min-width:320px) and (max-width:767px){
+    #about_main{
+        flex-direction: column;
+    }
+    .about_image{
+        width: 90%;
+    }
+    .about_info_div{
+        width: 80%;
+        height: 770px;
+    }
+    .social_icons{
+        width: 20%;
+    }
+    #resume-button-2{
+        width: 80%;
+    }
+}
+ 
+ /* Medium Screens */
+ @media screen and (min-width:768px) and (max-width:1024px){
+     
+ }
