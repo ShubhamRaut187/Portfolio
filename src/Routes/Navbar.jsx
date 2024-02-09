@@ -13,7 +13,7 @@ function Navbar(props) {
     return (
         <div className="navbar">
             <div className="nav-container">
-                <Link to="/" className="nav-logo">
+                <Link to="#home" className="nav-logo" smooth>
                     <span>Shubham Raut</span>
                     {/* <i className="fas fa-code"></i> */}
                     <span className="icon">
@@ -25,7 +25,8 @@ function Navbar(props) {
             <li className="nav-item">
               <Link
                 // exact
-                to="/"
+                to="#home"
+                smooth
                 // activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -48,7 +49,8 @@ function Navbar(props) {
             <li className="nav-item">
               <Link
                 // exact
-                to="/skills"
+                to="#skills"
+                smooth
                 // activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

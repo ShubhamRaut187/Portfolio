@@ -1,0 +1,25 @@
+.skill_card_parent{
+    width: 70%;
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    align-content: center;
+    margin: 20px auto;
+}
+/* Media */
+/* Small Screens */
+@media screen and (min-width:320px) and (max-width:767px){
+  .skill_card_parent{
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+  }
+}
+ 
+ /* Medium Screens */
+ @media screen and (min-width:768px) and (max-width:1024px){
+    .skill_card_parent{
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+      }
+ }

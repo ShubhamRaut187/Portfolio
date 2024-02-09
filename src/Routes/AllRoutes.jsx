@@ -13,9 +13,9 @@ function AllRoutes(props) {
     return (
         <div>
            <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='#home' element={<Home/>}/>
                 <Route path='#about' element={<About/>}/>
-                <Route path='/skills' element={<Skills/>}/>
+                <Route path='#skills' element={<Skills/>}/>
                 <Route path='/project' element={<Project/>}/>
                 <Route path='/contact' element={<Contact/>}/>
            </Routes>
